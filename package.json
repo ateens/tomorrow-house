@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.html",
     "node-sass": "node-sass",
-    "sass": "node-sass -wr styles/main.scss ./style.css"
+    "sass": "node-sass -wr --source-map true styles/main.scss ./style.css"
   },
   "repository": {
     "type": "git",
